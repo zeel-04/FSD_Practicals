@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeel Thumar Practical 3</title>
+</head>
+
+<body style="background-color: pink">
+    <center>
+        <h1 style="margin-top: 25px; margin-bottom: 50px; color:blue; font-family:'Courier New">PRACTICAL_3b</h1>
+        <h2>Output:</h2>
+        <marquee><p style="font-size: 22px;">Right click and select Inspect and then go to Console to view Output !!</p></marquee>
+    </center>
+
+    <h2 align="right">20cs096_Zeel Thumar</h2>
+
+    <script>
+        class Student {
+            constructor(rollno, first_name, last_name) {
+                this.rollno = rollno;
+                this.first_name = first_name;
+                this.last_name = last_name;
+            }
+
+            setFullName(f_name, l_name) {
+                this.first_name = f_name;
+                this.last_name = l_name;
+            }
+
+            printFullName() {
+                console.log(this.first_name + " " + s1.last_name);
+            }
+        }
+
+        var s1 = new Student('20cs096', 'Zeel', 'Thumar')
+        s1.printFullName();
+
+        s1.setFullName('Krupa', 'Shah');
+        s1.printFullName();
+    </script>
+</body>
+
+</html>

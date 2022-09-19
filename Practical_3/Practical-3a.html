@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+    <head></head>
+    <body>
+        <div class="headings">
+            <h1 id="red">SCIENCE</h1>
+            <h1 id="yeallow">MATHEMATICS</h1>
+            <button id="btn" value="click">click</button>
+            
+             <h2 align="center">20cs096_Zeel Thumar</h2>
+
+        </div>
+        <script >
+            let buttonId = document.getElementById('btn').addEventListener('click', clickButton => {
+    console.log('clicked');
+    setInterval(function () {
+        if (document.getElementById('red').style.color == 'red') {
+            var color1 = "black";
+        }
+        else {
+            color1 = 'red';
+        }
+        document.getElementById('red').style.color = color1;
+        if (document.getElementById('yellow'.style.color == 'yellow')) {
+            let color2 = "black";
+        }
+        else {
+            color2 = "yellow";
+        }
+        document.getElementById('yellow').style.color = color2;
+    }, 1000);
+})
+        </script>
+    </body>
+</html>
